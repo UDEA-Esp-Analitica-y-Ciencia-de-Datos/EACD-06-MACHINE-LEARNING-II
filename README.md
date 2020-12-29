@@ -11,9 +11,11 @@ Este curso tiene dos objetivos:
 
 **SESIÓN 01** (6hrs):
   - Clustering
-  - Taller 1: Implentar K-Means
-  - Reducción de dimension
-  - Taller 2: Implementar Análisis de Componentes Principales (PCA)
+  - Proyecto 1: Applicar clustering a un caso de uso propio
+  - Taller 1: cuestionario acerca de clustering.
+  - Reducción de dimensionalidad
+  - Proyecto 2: Applicar reducción de dimensionalidad
+  - Taller 2: cuestionario acerca de reducción de la dimensionalidad.
   
 **SESIÓN 02** (4hrs):
   - Detección de anomalías
@@ -36,19 +38,21 @@ Este curso tiene dos objetivos:
 ## Criterios de evaluación
 
 - **35%**: TALLERES, cada taller tendrá el mismo valor.
-- **65%**: PROYECTOS, el segundo taller tendrá un valor de 40% y el primero tendrá un valor del 25%.
+- **65%**: PROYECTOS, 
 
 Tanto en los proyectos como en los talleres se tendrá en cuenta la calidad de la solución, dando especial importancia a la claridad del trabajo realizado.
 
 Finalmente, se tendrán bonos adicionales para agregar en cualquier evaluaciónde la siguiente manera:
 
-- Bonos por por cada error reportado del material del curso. Estos deben reportarse como *issues*  the github is su solución debe proponerse como un *pull request* intenando solucionar el *issue*  correspondiente. Este bono tendrá un valor de un 2% adicional en la evaluación final del curso.
-- Posiblemente habrán más
+- Bonos por por cada error reportado del material del curso. El proceso es mediante un *pull request* explicando e intenando solucionar el *issue*  correspondiente. Este bono tendrá un valor de un 2% adicional en la evaluación final del curso.
 
 ## Entregas
 
-Tanto los talleres como los proyectos tendrán espacio suficiente para resolverse en las sesiones de clase, pero se darán plazos extra para adaptarnos a posibles imprevistos e inconvenientes por parte de los estudiantes. Los proyectos podrán ser entregados hasta 2 días después de trabajados en clase. Los talleres solo pueden ser resueltos durante la clase y es por esto corresponden a un componente mínimo en la evaluación final del curso.
+Los talleres tendrán espacio suficiente para resolverse en las sesiones de clase y deben ser resueltos allí. Los proyectos podrán ser entregados hasta 2 semanas después de ser propuestos en clase. Será posible dar plazos especiales para la entrega de talleres y proyectos, estos plazos serán negociables y meritorios, es decir, podrán requerir unos criterios adicionales o representar un porcentaje menor del curso.
 
-Además, la formulación de los proyectos estará disponible antes del inicio de clase, esperando que esto de especial flexibilidad en el manejo del tiempo de los estudiantes.
+## Cuadro de honor
 
-## Referencias:
+Acá se hace mención especial a aquellos estudiantes que sobresalen por su contribución al curso. Esta puede identificarse de varias maneras, por ejemplo:
+
+- Su compromiso a colaborar con los demás compañeros para que el contenido sea dominado por todos.
+- Su participación en la mejora constante del curso.
