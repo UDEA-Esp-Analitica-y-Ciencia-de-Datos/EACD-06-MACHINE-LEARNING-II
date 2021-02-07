@@ -12,7 +12,6 @@ Este curso tiene dos objetivos:
 **SESIÓN 01** (6hrs):
   - Clustering
   - Proyecto 1: Applicar clustering a un caso de uso propio
-  - Taller 1: cuestionario acerca de clustering.
   - Reducción de dimensionalidad
   - Proyecto 2: Applicar reducción de dimensionalidad
   - Taller 2: cuestionario acerca de reducción de la dimensionalidad.
