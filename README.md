@@ -23,10 +23,10 @@ Este curso tiene dos objetivos:
   - 
   
 **SESIÓN 04** (4hrs):
-  -
+  - ...
   
 **SESIÓN 05** (6hrs):
-  - -
+  - ....
 
 ## Criterios de evaluación
 
