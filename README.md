@@ -20,7 +20,7 @@ Este curso tiene dos objetivos:
   - Sistemas de recomendación
 
 **SESIÓN 03** (6hrs):
-  - 
+  - ...
   
 **SESIÓN 04** (4hrs):
   - ...
