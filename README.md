@@ -12,28 +12,20 @@ Este curso tiene dos objetivos:
 **SESIÓN 01** (6hrs):
   - Clustering
   - Proyecto 1: Applicar clustering a un caso de uso propio
-  - Taller 1: cuestionario acerca de clustering.
   - Reducción de dimensionalidad
-  - Proyecto 2: Applicar reducción de dimensionalidad
-  - Taller 2: cuestionario acerca de reducción de la dimensionalidad.
   
 **SESIÓN 02** (4hrs):
   - Detección de anomalías
-  - Taller 3: Implementar un algoritmo de detección de anomalías
   - Sistemas de recomendación
-  - Taller 4: Implementar un sistema de recomendación utilizando factorización de matrices
 
 **SESIÓN 03** (6hrs):
-  - Revisón de scikit learn API
-  - Taller 5: Solución de problemas de Machine Learning utilizando scikit learn
-  - Proyecto 1: Implementación de un PoC
+  - 
   
 **SESIÓN 04** (4hrs):
-  - Ciclo de vida de una aplicación de machine learning
-  - Despliegue de applicaiones de Machine Learning
+  -
   
 **SESIÓN 05** (6hrs):
-  - Proyecto 2: Implementación de una aplicación de Machine Learning
+  - -
 
 ## Criterios de evaluación
 
