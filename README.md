@@ -13,6 +13,7 @@ Este curso tiene dos objetivos:
   - Clustering
   - Proyecto 1: Applicar clustering a un caso de uso propio
   - Reducción de dimensionalidad
+  - Taller 1: Implementación de PCA
   
 **SESIÓN 02** (4hrs):
   - Detección de anomalías
