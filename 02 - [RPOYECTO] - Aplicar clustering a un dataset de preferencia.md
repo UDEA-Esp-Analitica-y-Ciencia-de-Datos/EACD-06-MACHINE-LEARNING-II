@@ -14,3 +14,5 @@ Como pudiste notar, el análisis de clusters tiene cierto grado de ambigüedad. 
 
 - Justificación del caso de uso -> 50%
 - Aplicación correcta del algoritmo -> 10% por cada algoritmo
+
+En caso de que escojas una base de datos que no pueda ser trabajada por algunos algoritmos, tu justificación sustituye su aplicación. 
