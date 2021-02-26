@@ -9,24 +9,35 @@ Este curso tiene dos objetivos:
 
 ## Programación de sesiones
 
-**SESIÓN 01** (6hrs):
+**SESIÓN 01** (4rs):
   - Clustering
-  - Proyecto 1: Applicar clustering a un caso de uso propio
+  - Proyecto 1: Applicar clustering a un caso de elección propia
   - Reducción de dimensionalidad
   - Taller 1: Implementación de PCA
   
-**SESIÓN 02** (4hrs):
+**SESIÓN 02** (6hrs):
   - Detección de anomalías
+  - Taller 2: Exploración de algoritmos de detección de anomalías
   - Sistemas de recomendación
+  - Taller 3: Exploración de algoritmos para sistemas de recomendación
 
-**SESIÓN 03** (6hrs):
-  - ...
+**SESIÓN 03** (4hrs):
+  - Data that changes over time
+  - Taller 4: Predicting the future.
+  - Seguimiento de experimentos
+  - Versionamiento de modelos.
   
-**SESIÓN 04** (4hrs):
-  - ...
+**SESIÓN 04** (6hrs):
+  - Fairness
+  - Proyecto 2: Evaluar fairnes en un caso de elección propia
+  - Deployment
+  - Taller 5: Desplegar un modelo de predicción de precios.
+  - Proyecto 3: Avance de proyecto de grado.
   
-**SESIÓN 05** (6hrs):
-  - ....
+**SESIÓN 05** (4hrs):
+  - Socialización de proyectos de grado
+
+La programación puede variar un poco debido a imprevistos.
 
 ## Criterios de evaluación
 
