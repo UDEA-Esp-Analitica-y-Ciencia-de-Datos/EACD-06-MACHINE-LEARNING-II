@@ -11,7 +11,7 @@ Este curso tiene dos objetivos:
 
 **SESIÓN 01** (4rs):
   - Clustering
-  - Proyecto 1: Applicar clustering a un caso de elección propia
+  - Proyecto 1: Aplicar clustering a un caso de elección propia
   - Reducción de dimensionalidad
   - Taller 1: Implementación de PCA
   
@@ -48,7 +48,7 @@ Tanto en los proyectos como en los talleres se tendrá en cuenta la calidad de l
 
 Finalmente, se tendrán bonos adicionales para agregar en cualquier evaluaciónde la siguiente manera:
 
-- Bonos por por cada error reportado del material del curso. El proceso es mediante un *pull request* explicando e intenando solucionar el *issue*  correspondiente. Este bono tendrá un valor de un 2% adicional en la evaluación final del curso.
+- Bonos por cada error reportado del material del curso. El proceso es mediante un *pull request* explicando e intentando solucionar el *issue*  correspondiente. Este bono tendrá un valor de un 2% adicional en la evaluación final del curso.
 
 ## Entregas
 
