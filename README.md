@@ -22,20 +22,18 @@ Este curso tiene dos objetivos:
   - Taller 3: Exploración de algoritmos para sistemas de recomendación
 
 **SESIÓN 03** (4hrs):
-  - Data that changes over time
-  - Taller 4: Predicting the future.
-  - Seguimiento de experimentos
-  - Versionamiento de modelos.
+  - Asesoría en proyecto de clustering
+  - Trabajo con series de tiempo
   
 **SESIÓN 04** (6hrs):
-  - Fairness
-  - Proyecto 2: Evaluar fairnes en un caso de elección propia
-  - Deployment
-  - Taller 5: Desplegar un modelo de predicción de precios.
-  - Proyecto 3: Avance de proyecto de grado.
+  - Taller 4: Demanda de bicicletas públicas.
+  - Fairness y sesgo algorítmico
+  - Proyecto 2: Sesgo algorítmico en el proyecto de grado.
+  - Ciclo de vida de las aplicaciones de Machine Learning
+  - ...
   
 **SESIÓN 05** (4hrs):
-  - Socialización de proyectos de grado
+  - ...
 
 La programación puede variar un poco debido a imprevistos.
 
