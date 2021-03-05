@@ -30,10 +30,10 @@ Este curso tiene dos objetivos:
   - Fairness y sesgo algorítmico
   - Proyecto 2: Sesgo algorítmico en el proyecto de grado.
   - Ciclo de vida de las aplicaciones de Machine Learning
-  - ...
   
 **SESIÓN 05** (4hrs):
-  - ...
+  - Demo: despliegue de un modelo de Machine Learning
+  - Taller 5: Despliegue de un modelo de machine learning
 
 La programación puede variar un poco debido a imprevistos.
 
