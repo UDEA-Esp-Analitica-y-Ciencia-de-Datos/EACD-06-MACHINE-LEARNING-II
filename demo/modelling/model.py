@@ -22,6 +22,7 @@ def get_estimator_mapping():
         "regressor": RandomForestRegressor,
         "age-extractor": AgeExtractor,
         "column-transformer": CustomColumnTransformer,
+        "simplified-transformer": SimplifiedTransformer,
     }
 
 
@@ -67,7 +68,7 @@ class CustomColumnTransformer(BaseEstimator, TransformerMixin):
                 ("binarizer", OrdinalEncoder(), type(self)._binary_columns),
                 (
                     "one_hot_encoder",
-                    OneHotEncoder(handle_unknown="ignore"),
+                    OneHotEncoder(handle_unknown="ignore", sparse=False),
                     type(self)._categorical_columns,
                 ),
                 ("scaler", StandardScaler(), type(self)._float_columns),
@@ -81,3 +82,29 @@ class CustomColumnTransformer(BaseEstimator, TransformerMixin):
 
     def transform(self, X):
         return self._column_transformer.transform(X)
+
+
+class SimplifiedTransformer(BaseEstimator, TransformerMixin):
+    """This is just for easy of demonstration"""
+
+    _columns_to_keep = "HouseAge,GarageAge,LotArea,Neighborhood,HouseStyle".split(",")
+
+    def __init__(self):
+        self._column_transformer = ColumnTransformer(
+            transformers=[
+                ("binarizer", OrdinalEncoder(), ["Neighborhood", "HouseStyle"]),
+            ],
+            remainder="drop",
+        )
+
+    def fit(self, X, y=None):
+        columns = type(self)._columns_to_keep
+        X_ = X[columns]
+        self._column_transformer = self._column_transformer.fit(X_, y=y)
+        return self
+
+    def transform(self, X):
+        columns = type(self)._columns_to_keep
+        X_ = X[columns]
+        X_ = self._column_transformer.transform(X_)
+        return X_
