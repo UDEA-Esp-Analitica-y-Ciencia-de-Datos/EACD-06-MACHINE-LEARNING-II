@@ -92,7 +92,7 @@ class SimplifiedTransformer(BaseEstimator, TransformerMixin):
     def __init__(self):
         self._column_transformer = ColumnTransformer(
             transformers=[
-                ("binarizer", OrdinalEncoder(), ["Neighborhood", "HouseStyle"]),
+                ("binarizer", OrdinalEncoder(handle_unknown = "use_encoded_value"), ["Neighborhood", "HouseStyle"]),
             ],
             remainder="drop",
         )
