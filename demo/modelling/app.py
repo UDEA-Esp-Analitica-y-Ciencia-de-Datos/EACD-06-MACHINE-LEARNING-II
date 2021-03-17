@@ -54,6 +54,7 @@ def _save_versioned_estimator(
     estimator: BaseEstimator, hyperparams: t.Dict[str, t.Any], output_dir: str
 ):
     version = str(datetime.now(timezone.utc).replace(second=0, microsecond=0))
+    version = version.replace(':',' ') 
     model_dir = os.path.join(output_dir, version)
     os.makedirs(model_dir, exist_ok=True)
     try:
