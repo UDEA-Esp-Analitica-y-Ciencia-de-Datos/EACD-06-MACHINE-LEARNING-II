@@ -88,7 +88,9 @@ def find_hyperparams(
     X, y = _get_dataset(_load_config(config_file, "data"), splits=[split])[split]
     gs.fit(X, y)
     hyperparams = _param_grid_to_custom_format(gs.best_params_)
-    estimator = model.build_estimator(hyperparams)
+    param_grid.update(hyperparams)
+    estimator = model.build_estimator(param_grid)
+    estimator.fit(X, y)
     output_dir = _load_config(config_file, "export")["output_dir"]
     _save_versioned_estimator(estimator, hyperparams, output_dir)
 
